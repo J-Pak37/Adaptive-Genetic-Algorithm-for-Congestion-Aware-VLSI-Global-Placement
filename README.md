@@ -17,14 +17,14 @@ This research proposes an **Adaptive Genetic Algorithm** that:
 - **Routability-Driven Optimization:** Unlike standard metaheuristics, our approach ensures that the final placement adheres to routing capacity constraints.
 - **Comparative Analysis:** Includes scripts to compare performance against Spotted Hyena Optimizer (SHO) and Whale Optimization Algorithm (WOA).
 
-## 📊 Experimental Results
+## Experimental Results
 
 Our findings demonstrate that the Proposed GA maintains a manageable Maximum Congestion level (e.g., **15.62** for `adaptec1.inf`) compared to the extreme values (> $10^{11}$) produced by non-routable swarm algorithms.
 
 ### Convergence Analysis
 The GA shows a stable and realistic convergence curve, avoiding the "instantaneous but deceptive" convergence seen in algorithms that ignore physical constraints.
 
-## 🛠 Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 - Python 3.8+
